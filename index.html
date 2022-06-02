@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- metadata ex. under og === OpenGraph fb protocal for shareble clickable  -->
+    <meta property="og:site_name" content="youTube" />
+    <meta property="og:url" content="youTube" />
+    <meta property="og:title" content="youTube" />
+    <meta property="og:image" content="youTube" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="720" />
+    <meta property="og:description" content="IMPORTENT" />
+    <!-- more -->
+    <meta property="og:type" content="video.other" />
+    <meta property="og:video:url" content="youTube" />
+    <meta property="og:video:secure_url" content="youTube" />
+    <!-- more -->
+    <meta name="twitter:card" content="player" />
+    <meta name="twitter:site" content="@youTube" />
+    <meta name="twitter:url" content="player" />
+    <meta name="twitter:description" content="player" />
+    <title>
+      5+ Must Know HTML Tags That Almost Nobody Knows | #WebDevSimplified
+    </title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Favorites</legend>
+        <div>
+          <label>Color</label>
+        </div>
+        <div>
+          <input list="color-list" type="text" />
+          <datalist id="color-list">
+            <option value="Red"></option>
+            <option value="Green"></option>
+            <option value="Blue"></option>
+            <option value="Yellow"></option>
+            <option value="Black"></option>
+            <option value="White"></option>
+            <option value="Purple"></option>
+            <option value="Cyan"></option>
+            <option value="Pink"></option>
+          </datalist>
+        </div>
+
+        <br />
+
+        <div>
+          <input type="color" />
+        </div>
+
+        <br />
+
+        <div>
+          <label>Time n Date</label>
+        </div>
+        <div>
+          <input type="time" />
+        </div>
+
+        <div>
+          <input type="date" />
+        </div>
+
+        <br />
+        <br />
+
+        <div>
+          <label>Progress Bar KITT</label>
+        </div>
+
+        <div>
+          <progress></progress>
+        </div>
+
+        <br />
+
+        <div>
+          <progress value="36" max="100">36%</progress>
+        </div>
+
+        <br />
+        <br />
+
+        <div>
+          <label>Sub & Sup</label>
+        </div>
+        <div>
+          <p>H<sub>2</sub>O</p>
+          <p>O<sup>2</sup></p>
+          <p>X<sup>2</sup> * y<sup>4</sup></p>
+          <p>X^<sup>2</sup> * y^<sup>4</sup></p>
+        </div>
+
+        <br />
+        <br />
+
+        <div>
+          <label>Fruit</label>
+        </div>
+        <div>
+          <input list="fruit-list" type="text" />
+          <datalist id="fruit-list">
+            <option value="Banana"></option>
+            <option value="Strawberry"></option>
+            <option value="Blackberry"></option>
+            <option value="Blueberry"></option>
+            <option value="Peach"></option>
+            <option value="pear"></option>
+            <option value="Apple"></option>
+          </datalist>
+        </div>
+
+        <br />
+
+        <div>
+          <label>Picture (test 900vs700px)</label>
+        </div>
+
+        <div>
+          <picture>
+            <!-- <source srcset="logo.webp" type="image/webp" /> -->
+            <source srcset="logo_grey.png" media="(min-width: 900px)" />
+            <img src="logo.png" style="width: 700px" />
+          </picture>
+        </div>
+        <!-- <div>
+          <p>
+            fortsette vidi @ 9:23 / 15:32
+            https://www.youtube.com/watch?v=iX_QyjdctsQ
+          </p>
+        </div> -->
+      </fieldset>
+    </form>
+  </body>
+</html>
